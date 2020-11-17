@@ -1,8 +1,12 @@
+package main;
+
+import template.Coin;
+
 import java.io.Serializable;
 
-class ILS extends Coin implements Serializable {
+public class USD extends Coin implements Serializable {
 
-    private final double value = 0.28;
+    private final double value = 3.52;
 
     public double getValue() {
 
